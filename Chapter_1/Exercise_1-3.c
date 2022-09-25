@@ -4,8 +4,8 @@
 //C = (5/9)(F-32)
 
 main(){
-    int fahr, celsius;
-    int lower, upper, step;
+    float fahr, celsius;
+    float lower, upper, step;
 
     lower = 0; //lower limit of the scale
     upper = 300; //upper limit of the scale
@@ -15,8 +15,8 @@ main(){
     printf("Fahrenheit to Celsius \n");
 
     while (fahr <= upper){
-        celsius = 5 * (fahr-32)/9;
-        printf("%d\t%d\n", fahr, celsius);
+        celsius = (5.0/9.0) * (fahr-32.0);
+        printf("%.2f\t%.2f\n", fahr, celsius);
         fahr = fahr + step;
     }
 }
