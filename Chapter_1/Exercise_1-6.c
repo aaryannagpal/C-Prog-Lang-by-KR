@@ -5,3 +5,4 @@ main(){
     c = getchar();
     printf("%d", c!=EOF);
 }
+// check if character is EOF
