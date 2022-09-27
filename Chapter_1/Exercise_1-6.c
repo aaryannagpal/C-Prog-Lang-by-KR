@@ -5,5 +5,3 @@ main(){
     c = getchar();
     printf("%d", c!=EOF);
 }
-
-//Value : -1
