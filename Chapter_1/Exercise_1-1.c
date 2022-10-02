@@ -17,7 +17,7 @@ int main(void){
 	char str[12];
 	memset(str,0,sizeof(char)*12/sizeof(char));
 	str[11]='\0';
-	char cmpstr[]="Hello World";
+	char cmpstr[]="hello world";
 	while(strcmp(cmpstr,str)!=0){
 		randomize(str);
 		puts(str);
