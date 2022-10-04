@@ -5,6 +5,6 @@ I am new to C, and my courses absolutely require that I learn it asap. So I am g
 
 Also, do not look at the latest commit time as I have done a lot of organising at the last moment, including changing folders and file names.
 Do check out the history of commits that are there.
-Also, there might be alot of commits that just disappeared cause I changed a lot of things, if you can find them, nice. Otherwise you gotta trust me on this that I have been putting commits almost daily.
+Also, there might be alot of commits that just disappeared cause I changed a lot of things (4th Oct), if you can find them, nice. Otherwise you gotta trust me on this that I have been putting commits almost daily.
 
 Anyways, gimme an A pls.
