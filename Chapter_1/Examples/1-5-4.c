@@ -15,8 +15,11 @@ int main(){
         if (c == '\n'){
             ++nl;
         }
-        if (c == ' ' || c == '\n' || c == '\t'){
-            state = OUT;
+        if (c == ' ' || c == '\n' || c == '\t'){ //left to right check, if some condition is fulfilled before the whole line is tested, it will stop then and there
+        // that is why c == ' ' is written first, because if c is blank, it is sure that it wont be \n or \t, therefore no need to run the whole
+        //program through it
+
+            state = OUT;  //not in a word
         }
         else if (state == OUT){
             state = IN;
