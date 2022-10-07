@@ -8,11 +8,10 @@ int main(){
     while((c = getchar())!=EOF){
         if (c == ' '){
             printf("\n"); 
-    
         }
         else
         {
-            putchar(c);
+            putchar(c); //print the word
         }       
     }
     return 0;
