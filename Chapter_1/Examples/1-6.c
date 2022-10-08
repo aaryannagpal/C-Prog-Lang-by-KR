@@ -1,14 +1,13 @@
 /*Count the occurences of each digit*/
 
 #include <stdio.h>
-
+#include <string.h>
 int main(){
     int c, i, nwhite, nother;
     int ndigit[10]; //initializing an array
 
     nwhite = nother = 0;
-    for (i = 0; i < 10; ++i)
-        ndigit[i] = 0; //giving all elements the value of 0
+    memset(ndigits,0,sizeof(int)*10); //giving all elements the value of 0
     printf("Input: ");
     while ((c = getchar())!=EOF)
         if (c >= '0' && c<='9') //checking if character in c is digit or nto{
@@ -17,7 +16,7 @@ int main(){
         }
         else if (c == ' ' || c == '\n' || c == '\t')
         {
-            ++nwhite;
+            ++nwhite; //racism
         }
         else{
             ++nother;
@@ -26,6 +25,6 @@ int main(){
     for (i = 0; i <10; ++i){
         printf("Frequency of %d is %d\n", i, ndigit[i]);
     }
-    printf("Number of white spaces: %d and other characters: %d", nwhite, nother);
+    printf("Number of white spaces: %d and other characters: %d", nwhite, nother); //Oh hello Mater good news I'm married tell Fater
     return 0;
     }
