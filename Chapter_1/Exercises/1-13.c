@@ -1,4 +1,4 @@
-/*Frequency of numbers in the input and histogram for the same*/
+/*Histogram for length of words*/
 
 #include <stdio.h>
 
