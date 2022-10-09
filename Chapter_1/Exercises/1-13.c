@@ -1,4 +1,4 @@
-/*Histogram for length of words*/
+/*Histogram for length of words in input*/
 
 #include <stdio.h>
 
