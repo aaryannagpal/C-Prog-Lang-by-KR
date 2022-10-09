@@ -1,3 +1,5 @@
+/*Frequency of numbers in the input and histogram for the same*/
+
 #include <stdio.h>
 
 #define MAX 15
