@@ -1,6 +1,7 @@
 #include <stdio.h>
 
 int power(int m, int n); //m^n
+//this is a function prototype which must agree with the defination and uses of power function we will define, else error arises
 
 int main(){
     int i;
@@ -12,12 +13,12 @@ int main(){
 
 /*Power : Raise m to the power of n*/
 
-int power(int base, int n){
-    int i, p;
+int power(int base, int n){ //arguments
+    int i, p; //initialized local variables
     p = 1;
     for (i = 1; i <= n; ++i){
 
         p = p * base;
     }
-    return p;
+    return p; //value is returned
 }
