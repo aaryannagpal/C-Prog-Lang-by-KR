@@ -26,6 +26,8 @@ int main(){
         
     }
     
+    //creating the histogram
+
     int t;
     for (i = 1; i< MAX; ++i){
         if (characters[i] !=0){
