@@ -1,5 +1,4 @@
 /*Print input lines larger than 80 characters*/
-
 #include <stdio.h>
 #define MAX 1000 //maximum length of a line
 #define LIMIT 80 
