@@ -30,12 +30,3 @@ int getline(char s[], int lim){
     }
     s[i] = '\0';
     return i;
-}
-void copy(char to[], char from[]){ //void means no value is to be returned
-    int i;
-    i = 0;
-
-    while((to[i] = from[i])!= '\0'){
-        ++i;
-    }
-}
