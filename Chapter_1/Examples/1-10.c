@@ -60,3 +60,6 @@ void copy(void){
 }
 
 //do all extern declarations at the beginning of the program to ommit the need to declare them again and again
+
+//not recommended to use for single file programs, but instead in programs where you need to traverse the variables thru different files
+//a compilation of such files are referred to has header files, with the externsion of .h
