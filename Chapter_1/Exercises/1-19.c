@@ -1,3 +1,5 @@
+/*Print the reverse the inputs line by line*/
+
 #include <stdio.h>
 
 #define MAX 100

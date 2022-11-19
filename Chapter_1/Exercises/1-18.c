@@ -1,3 +1,5 @@
+/*Remove white spaces from left and right of each line input*/
+
 #include <stdio.h>
 
 #define MAX 1000 //maximum length of a line
