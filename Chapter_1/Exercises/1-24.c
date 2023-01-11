@@ -1,3 +1,5 @@
+// write a program that checks if input has syntax error
+
 #include <stdio.h>
 #define MAX 1000
 
